@@ -34,16 +34,16 @@ header {
   left: auto;
 }
 
-#square1 {
+/*#square1 {
   background-color: #012d5c;
   right: 50%;
-}
+}*/
 
-#square2 {
+/*#square2 {
   left: 50%;
   background-color: #c20034;
 }
-
+*/
 .language {
   display: flex;
   justify-content: flex-end;
@@ -79,10 +79,12 @@ header {
 }
 
 .logo-header {
-  background: url("resources/logotype.svg") no-repeat center;
-  width: 240px;
-  height: 80px;
+  background: url("resources/logotype2.jpg") no-repeat center;
+ background-size: ;
+  width:173px;
+  height:173px;
   grid-area: logo-header;
+  
 }
 
 .nav {
@@ -134,7 +136,7 @@ footer > * {
 
 #video-box {
   background: url("resources/cys1.jpg") no-repeat;
-  background-size: cover;
+  background-size:contain;
 }
 
 #play-video {
@@ -193,7 +195,7 @@ footer > * {
 }
 
 .news-red {
-  background-color: #c20034;
+  background-color: #002d5c;
 }
 
 .slides {
